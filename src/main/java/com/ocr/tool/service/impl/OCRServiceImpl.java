@@ -7,9 +7,9 @@ import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
 import com.ocr.tool.dto.ImageInfoDto;
+import com.ocr.tool.service.OCRService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
-import com.ocr.tool.service.OCRService;
 
 import java.io.IOException;
 import java.util.Map;
